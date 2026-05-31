@@ -52,7 +52,7 @@ $body .= "Verstuurd via fincars.nl\n";
 
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
-$headers .= "From: FinCars Website <noreply@fincars.nl>\r\n";
+$headers .= "From: FinCars <info@fincars.nl>\r\n";
 $headers .= "Reply-To: $naam <$email>\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
